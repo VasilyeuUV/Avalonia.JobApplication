@@ -1,0 +1,4 @@
+[submodule "01.Submodules/I3jiad.AvaloniaUI"]
+	path = 01.Submodules/I3jiad.AvaloniaUI
+	url = https://github.com/VasilyeuUV/I3jiad.AvaloniaUI.git
+	branch = develop
