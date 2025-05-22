@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net9.0</TargetFramework>
     <Nullable>enable</Nullable>
     <LangVersion>latest</LangVersion>
   </PropertyGroup>
@@ -10,11 +10,28 @@
   </ItemGroup>
 
   <ItemGroup>
+    <AvaloniaXaml Remove="Controls\SimpleControls\CalendarDateTimePicker.axaml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <AvaloniaResource Include="Controls\SimpleControls\CalendarDateTimePicker.axaml" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Avalonia" Version="11.3.0" />
     <PackageReference Include="Avalonia.Themes.Fluent" Version="11.3.0" />
     <PackageReference Include="Avalonia.Fonts.Inter" Version="11.3.0" />
     <PackageReference Include="Avalonia.ReactiveUI" Version="11.3.0" />
     <!--Condition below is needed to remove Avalonia.Diagnostics package from build output in Release configuration.-->
     <PackageReference Condition="'$(Configuration)' == 'Debug'" Include="Avalonia.Diagnostics" Version="11.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Controls\ComplexControls\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\01.Submodules\I3jiad.AvaloniaUI\I3Jiad.AvaloniaUI.Controls\I3Jiad.AvaloniaUI.Controls.csproj" />
+    <ProjectReference Include="..\01.Submodules\I3jiad.AvaloniaUI\I3jiad.AvaloniaUI.Core\I3jiad.AvaloniaUI.Core.csproj" />
   </ItemGroup>
 </Project>

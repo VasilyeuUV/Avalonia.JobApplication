@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.JobApplication", "Avalonia.JobApplication.csproj", "{8A2B6A01-E312-7EBF-8568-A38913E57276}"
 EndProject
@@ -10,6 +10,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.JobApplication.Browser", "..\Avalonia.JobApplication.Browser\Avalonia.JobApplication.Browser.csproj", "{EB81FE99-604D-0F8C-33B4-85ACE4E7531A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Avalonia.JobApplication.Desktop", "..\Avalonia.JobApplication.Desktop\Avalonia.JobApplication.Desktop.csproj", "{2495EE9C-1970-ED3E-970F-7327B80F0B38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I3jiad.AvaloniaUI.Core", "..\01.Submodules\I3jiad.AvaloniaUI\I3jiad.AvaloniaUI.Core\I3jiad.AvaloniaUI.Core.csproj", "{A8BADFC8-6A70-82BA-2101-3BE7F3521B44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "I3Jiad.AvaloniaUI.Controls", "..\01.Submodules\I3jiad.AvaloniaUI\I3Jiad.AvaloniaUI.Controls\I3Jiad.AvaloniaUI.Controls.csproj", "{CEBBB587-5C6D-F188-8C45-B2D5524E825F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,6 +39,14 @@ Global
 		{2495EE9C-1970-ED3E-970F-7327B80F0B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2495EE9C-1970-ED3E-970F-7327B80F0B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2495EE9C-1970-ED3E-970F-7327B80F0B38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8BADFC8-6A70-82BA-2101-3BE7F3521B44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8BADFC8-6A70-82BA-2101-3BE7F3521B44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8BADFC8-6A70-82BA-2101-3BE7F3521B44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8BADFC8-6A70-82BA-2101-3BE7F3521B44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEBBB587-5C6D-F188-8C45-B2D5524E825F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEBBB587-5C6D-F188-8C45-B2D5524E825F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEBBB587-5C6D-F188-8C45-B2D5524E825F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEBBB587-5C6D-F188-8C45-B2D5524E825F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

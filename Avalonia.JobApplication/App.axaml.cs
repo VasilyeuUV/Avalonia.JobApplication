@@ -1,8 +1,10 @@
-﻿using Avalonia;
-using Avalonia.Controls.ApplicationLifetimes;
+﻿using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.JobApplication.ViewModels;
 using Avalonia.JobApplication.Views;
 using Avalonia.Markup.Xaml;
+using Avalonia.Metadata;
+
+//[assembly: XmlnsDefinition("https://github.com/avaloniaui", "I3Jiad.AvaloniaUI.Controls")]
 
 namespace Avalonia.JobApplication;
 
